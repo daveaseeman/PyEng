@@ -14,7 +14,7 @@ def count_lines(data):
     for l in lines:
         if not l:
             lines.remove(l)
-
+            
     return len(lines)
 
 if __name__ == "__main__":

@@ -11,7 +11,7 @@ lines = data.split("\n")
 print("Wrong: The number of lines is", len(lines))
 
 for l in lines:
-    if not l:
+    if not l: # keyword "not" checks if "l" is empty
         # Can also do this: if len(l) == 0
         lines.remove(l)
 print("Right: The number of lines is", len(lines))
